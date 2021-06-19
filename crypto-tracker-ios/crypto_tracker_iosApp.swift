@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct crypto_tracker_iosApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        HomeView()
+          .navigationBarHidden(true)
+      }
     }
+  }
 }
