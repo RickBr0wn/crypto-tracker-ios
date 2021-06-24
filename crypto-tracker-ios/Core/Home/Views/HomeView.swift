@@ -31,7 +31,7 @@ struct HomeView: View {
             .transition(.move(edge: .leading))
         }
         if showPortfolio {
-          allOfTheCoinsList
+          allOfThePortfolioCoinsList
             .transition(.move(edge: .trailing))
         }
         Spacer(minLength: 0)
